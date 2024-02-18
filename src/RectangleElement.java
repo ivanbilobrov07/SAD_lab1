@@ -4,13 +4,23 @@
  */
 public class RectangleElement extends IGameElement {
     /**
+     * First side length
+     */
+    public double x;
+    /**
+     * Second side length
+     */
+    public double y;
+
+    /**
      * Constructor
      *
-     * @param x x coordinate
-     * @param y y coordinate
+     * @param x first side length
+     * @param y second side length
      */
     public RectangleElement(double x, double y){
-        super(x, y);
+        this.x = x;
+        this.y = y;
     }
 
     /**

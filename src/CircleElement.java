@@ -4,6 +4,14 @@
  */
 public class CircleElement extends IGameElement {
     /**
+     * X coordinate
+     */
+    public double x;
+    /**
+     * Y coordinate
+     */
+    public double y;
+    /**
      * Radius of a circle
      */
     public double r;
@@ -16,7 +24,8 @@ public class CircleElement extends IGameElement {
      * @param r radius
      */
     public CircleElement(double x, double y, double r){
-        super(x, y);
+        this.x = x;
+        this.y = y;
         this.r = r;
     }
 
